@@ -5,7 +5,7 @@
       (w[o].q=w[o].q||[]).push(arguments)};
     js=d.createElement(s),fjs=d.getElementsByTagName(s)[0];
     js.id=o;js.src=f;js.async=1;fjs.parentNode.insertBefore(js,fjs);
-  }(window,document,'script','beyondWidget',window.location.origin + '/widget.js'));
+  }(window,document,'script','beyondWidget','https://yogasuba.github.io/beyondask-widget/widget.js'));
   
   beyondWidget('init', {
     publicKey: 'pk_wrV8tLKDYSft0ejeeMYeft0Dd25PjJ4f', // Your unique widget key
@@ -34,3 +34,4 @@
 
 <!-- Add this div where you want the widget to appear -->
 <div id="beyond-container"></div>
+
